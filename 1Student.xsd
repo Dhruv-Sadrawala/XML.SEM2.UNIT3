@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+	<!--studeent firstname, lastname, address, percentage,
+current year.-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema file:/home/student/xngr-editor/types/XML%20Schema/Validation/XMLSchema.xsd">
+<xsd:element name="student">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="firstname" type="xsd:string"></xsd:element>
+			<xsd:element name="lastname" type="xsd:string"></xsd:element>
+			<xsd:element name="address" type="xsd:string"></xsd:element>
+			<xsd:element name="percentage" type="xsd:string"></xsd:element>
+			<xsd:element name="current_year" type="xsd:string"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>

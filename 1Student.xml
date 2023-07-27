@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+	<!--studeent firstname, lastname, address, percentage,
+current year.-->
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="1 Student.xsd">
+	<firstname></firstname>
+	<lastname></lastname>
+	<address></address>
+	<percentage></percentage>
+	<current_year></current_year>
+</student>

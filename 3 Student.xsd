@@ -10,7 +10,12 @@
 						<xsd:element name="address" type="xsd:string"></xsd:element>
 						<xsd:element name="dob" type="xsd:string"></xsd:element>
 						<xsd:element name="gender" type="xsd:string"></xsd:element>
-						<xsd:element name="mob_no" type="xsd:string" ></xsd:element>
+						<xsd:element name="mob_no">
+							<xsd:simpleType>
+								<xsd:restriction base= "xsd:string">
+								<xsd:pattern value="[0-9]{10}"
+							</xsd:simpleType>
+						</xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>

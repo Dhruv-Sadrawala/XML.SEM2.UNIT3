@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+	<!--Create XML document and schema for vender where it contains the 
+		following data: vender Name, Personal Info (Address, Birthdate, Gender, Address, pincode). 
+		capture this information in an XML format.-->
+<vendor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="8.Vendor.xsd">
+	<name></name>
+	<p_info>
+		<add></add>
+		<dob>2004-12-22</dob>
+		<gender></gender>
+		<pin></pin>
+	</p_info>
+</vendor>

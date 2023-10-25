@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<!--Create an XML document template to capture information about salesperson where it 
+		contains the following data: Name, Business Info (Company, Department, Manager, Phone no, 
+		Email) Personal Info (Phone no, Address). Capture this information in an XML format. 
+		Write a schema that defines that Department value should be restricted by the following 
+		values only (Sales, Financial, Operation, Database)-->
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="5 Info.xsd">
+	<name></name>
+	<b_info>
+		<comp></comp>
+		<dept>Financial</dept>
+		<manager></manager>
+		<p_no></p_no>
+		<email></email>
+	</b_info>
+	<p_info>
+		<p_no></p_no>
+		<address></address>
+	</p_info>
+</info>

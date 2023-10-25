@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+	<!--Write an XML document and corresponding 
+		XML schema for maintaining the employee number, 
+		name, designation, and salary.-->
+		<emp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="6 Emp.xsd">
+			<no></no>
+			<name></name>
+			<desig></desig>
+			<salary></salary>
+		</emp>

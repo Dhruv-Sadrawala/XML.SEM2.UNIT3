@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema file:/C:/Program%20Files%20(x86)/Exchanger%20XML%20Editor%203.3/types/XML%20Schema/Validation/XMLSchema.xsd">
+<xsd:element name="info">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="name" type="xsd:string"></xsd:element>
+			<xsd:element name="b_info">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="comp" type="xsd:string"></xsd:element>
+						<xsd:element name="dept">
+							<xsd:simpleType>
+								<xsd:restriction base="xsd:string">
+									<xsd:pattern value="Sales|Financial|Operation|Database"></xsd:pattern>
+								</xsd:restriction>
+							</xsd:simpleType>
+						</xsd:element>
+						<xsd:element name="manager" type="xsd:string"></xsd:element>
+						<xsd:element name="p_no" type="xsd:string"></xsd:element>
+						<xsd:element name="email" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="p_info">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="p_no" type="xsd:string"></xsd:element>
+						<xsd:element name="address" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>

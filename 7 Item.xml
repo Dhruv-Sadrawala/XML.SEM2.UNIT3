@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+	<!--Create an XML document template to capture information aboutIteams 
+		where it contains the following data: Name, Category (veg , nonveg), 
+		company Info (Phone no, Address). Capture this information in an XML format. 
+		Write a schema that defines that vage valueshould be restricted by the 
+		following values only (Chips, Biscuits, salad,Bread)-->
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="7 Item.xsd">
+	<name></name>
+	<category>
+		<veg>Salad</veg>
+		<non_veg></non_veg>
+	</category>
+	<comp_info>
+		<p_no></p_no>
+		<add></add>
+	</comp_info>
+</items>
